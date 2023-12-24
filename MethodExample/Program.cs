@@ -11,7 +11,7 @@
 
         //create objects
         product1 = new Product();
-        Product.SetTotalNoOfProducts(Product.GetTotalNoOfProducts()+1);//1
+        Product.SetTotalNoOfProducts(Product.GetTotalNoOfProducts() + 1);//1
         product2 = new Product();
         Product.SetTotalNoOfProducts(Product.GetTotalNoOfProducts() + 1);//2
         product3 = new Product();
@@ -35,9 +35,8 @@
         product3.SetQuantityInStock(800);
 
         //call method
-        product1.CalculateTax();
-
-        product2.CalculateTax();
+        product1.CalculateTax(9.2);
+        product2.CalculateTax(7.4);
         product3.CalculateTax();
 
         // get values from fields
@@ -68,7 +67,7 @@
 
         //total Quantity
         int totalQuantity = Product.GetTotalQuantity(product1, product2, product3);
-          
+
 
         Console.WriteLine("Total no Quantity: " + totalQuantity);
         Console.WriteLine("Total no. of products: " + Product.TotalNoProducts);
