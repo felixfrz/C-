@@ -3,14 +3,14 @@
 public class Product
 {
     // fields
-    public int productID;
-    public string productName;
-    public double cost;
-    public double tax;
-    public int quantityStock;
+    private int productID;
+    private string productName;
+    private double cost;
+    private double tax;
+    private int quantityStock;
     public static int TotalNoProducts;
     public const string CategoryName = "Electronics";
-    public readonly string dateOfPurchase;
+    private readonly string dateOfPurchase;
 
     // Constructor
     public Product()

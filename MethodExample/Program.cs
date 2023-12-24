@@ -67,7 +67,7 @@
         Console.WriteLine("Tax: " + product3.GetTax());
 
 
-        int totalQuantity = product1.quantityStock + product2.quantityStock + product3.quantityStock;
+        int totalQuantity = product1.GetQuantityInStock() + product2.GetQuantityInStock() + product3.GetQuantityInStock();
 
         Console.WriteLine("Total no Quantity: " + totalQuantity);
         Console.WriteLine("Total no. of products: " + Product.TotalNoProducts);
