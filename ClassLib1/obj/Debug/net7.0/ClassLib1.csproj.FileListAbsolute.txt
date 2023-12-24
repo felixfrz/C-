@@ -1,0 +1,12 @@
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/bin/Debug/net7.0/ClassLib1.deps.json
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/bin/Debug/net7.0/ClassLib1.dll
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/bin/Debug/net7.0/ClassLib1.pdb
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.csproj.AssemblyReference.cache
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.AssemblyInfoInputs.cache
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.AssemblyInfo.cs
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.csproj.CoreCompileInputs.cache
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.dll
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/refint/ClassLib1.dll
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ClassLib1.pdb
+/Users/felixfrz/Projects/HelloWorld/ClassLib1/obj/Debug/net7.0/ref/ClassLib1.dll
