@@ -5,6 +5,7 @@
 
         //local constant
         const string developerName = "Deji";
+
         //create reference variables
         Product product1, product2, product3;
 
@@ -18,43 +19,64 @@
 
 
         //initialise field
-        product1.productID = 1001;
-        product1.productName = "Mobile";
-        product1.cost = 20000;
-        product1.quantityStock = 1200;
+        product1.SetProductID(1001);
+        product1.SetProductName("Mobile");
+        product1.SetCost(20000);
+        product1.SetQuantityInStock(1200);
 
-        product2.productID = 1002;
-        product2.productName = "Laptop";
-        product2.cost = 45000;
-        product2.quantityStock = 3400;
+        product2.SetProductID(1002);
+        product2.SetProductName("Laptop");
+        product2.SetCost(45000);
+        product2.SetQuantityInStock(3400);
 
-        product3.productID = 1003;
-        product3.productName = "Speakers";
-        product3.cost = 36000;
-        product3.quantityStock = 800;
+        product3.SetProductID(1003);
+        product3.SetProductName("Speakers");
+        product3.SetCost(36000);
+        product3.SetQuantityInStock(800);
+
+        //call method
+        product1.CalculateTax();
+
+        product2.CalculateTax();
+        product3.CalculateTax();
 
         // get values from fields
         Console.WriteLine(developerName);
-        Console.WriteLine("Product ID: " + product1.productID);
-        Console.WriteLine("Product Name: " + product1.productName);
-        Console.WriteLine("Cost: " + product1.cost);
-        Console.WriteLine("Quantity Stock: " + product1.quantityStock);
-        Console.WriteLine("Date of Purchase: " + product1.dateOfPurchase);
+        Console.WriteLine("Product1:");
+        Console.WriteLine("Product ID: " + product1.GetProductID());
+        Console.WriteLine("Product Name: " + product1.GetProductName());
+        Console.WriteLine("Cost: " + product1.GetCost());
+        Console.WriteLine("Quantity Stock: " + product1.GetQuantityInStock());
+        Console.WriteLine("Date of Purchase: " + product1.GetDateOfPurchase());
+        Console.WriteLine("Tax: " + product1.GetTax());
 
-        Console.WriteLine("\nProduct ID: " + product2.productID);
-        Console.WriteLine("Product Name: " + product2.productName);
-        Console.WriteLine("Cost: " + product2.cost);
-        Console.WriteLine("Quantity Stock: " + product2.quantityStock);
-        Console.WriteLine("Date of Purchase: " + product2.dateOfPurchase);
+        Console.WriteLine("\nProduct2:");
+        Console.WriteLine("Product ID: " + product2.GetProductID());
+        Console.WriteLine("Product Name: " + product2.GetProductName());
+        Console.WriteLine("Cost: " + product2.GetCost());
+        Console.WriteLine("Quantity Stock: " + product2.GetQuantityInStock());
+        Console.WriteLine("Date of Purchase: " + product2.GetDateOfPurchase());
+        Console.WriteLine("Tax: " + product2.GetTax());
 
-        Console.WriteLine("\nProduct ID: " + product3.productID);
-        Console.WriteLine("Product Name: " + product3.productName);
-        Console.WriteLine("Cost: " + product3.cost);
-        Console.WriteLine("Quantity Stock: " + product3.quantityStock);
-        Console.WriteLine("Date of Purchase: " + product3.dateOfPurchase);
+        Console.WriteLine("\nProduct3:");
+        Console.WriteLine("Product ID: " + product3.GetProductID());
+        Console.WriteLine("Product Name: " + product3.GetProductName());
+        Console.WriteLine("Cost: " + product3.GetCost());
+        Console.WriteLine("Quantity Stock: " + product3.GetQuantityInStock());
+        Console.WriteLine("Date of Purchase: " + product3.GetDateOfPurchase());
+        Console.WriteLine("Tax: " + product3.GetTax());
+
+
+        int totalQuantity = product1.quantityStock + product2.quantityStock + product3.quantityStock;
+
+        Console.WriteLine("Total no Quantity: " + totalQuantity);
         Console.WriteLine("Total no. of products: " + Product.TotalNoProducts);
+
         Console.WriteLine("Category of products: " + Product.CategoryName);
-        Console.WriteLine("Category of products: " + Product.CategoryName);
+
+
+
+        Console.ReadKey();
     }
 }
 
