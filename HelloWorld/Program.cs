@@ -54,6 +54,7 @@
         Console.WriteLine("Date of Purchase: " + product3.dateOfPurchase);
         Console.WriteLine("Total no. of products: "+ Product.TotalNoProducts);
         Console.WriteLine("Category of products: " + Product.CategoryName);
+        Console.WriteLine("Category of products: " + Product.CategoryName);
     }
 }
 
