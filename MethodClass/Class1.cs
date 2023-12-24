@@ -105,6 +105,24 @@ public class Product
     }
 
 
+
+    // set method for TotalNoOfProduct
+    public static void SetTotalNoOfProducts(int value)
+    {
+        TotalNoProducts = value;
+    }
+
+    // get method for TotalNoOfProduct
+    public static int GetTotalNoOfProducts() => TotalNoProducts;
+
+    //static method: Calculates total quantity
+    public static int GetTotalQuantity(Product product1, Product product2, Product product3)
+    {
+        int total;
+        total = product1.GetQuantityInStock() + product2.GetQuantityInStock() + product3.GetQuantityInStock();
+        return total;
+    }
+
 }
 
 

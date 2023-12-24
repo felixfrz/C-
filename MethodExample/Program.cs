@@ -11,11 +11,11 @@
 
         //create objects
         product1 = new Product();
-        Product.TotalNoProducts++;
+        Product.SetTotalNoOfProducts(Product.GetTotalNoOfProducts()+1);//1
         product2 = new Product();
-        Product.TotalNoProducts++;
+        Product.SetTotalNoOfProducts(Product.GetTotalNoOfProducts() + 1);//2
         product3 = new Product();
-        Product.TotalNoProducts++;
+        Product.SetTotalNoOfProducts(Product.GetTotalNoOfProducts() + 1);//3
 
 
         //initialise field
@@ -66,8 +66,9 @@
         Console.WriteLine("Date of Purchase: " + product3.GetDateOfPurchase());
         Console.WriteLine("Tax: " + product3.GetTax());
 
-
-        int totalQuantity = product1.GetQuantityInStock() + product2.GetQuantityInStock() + product3.GetQuantityInStock();
+        //total Quantity
+        int totalQuantity = Product.GetTotalQuantity(product1, product2, product3);
+          
 
         Console.WriteLine("Total no Quantity: " + totalQuantity);
         Console.WriteLine("Total no. of products: " + Product.TotalNoProducts);
