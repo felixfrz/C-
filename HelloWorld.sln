@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodClass", "MethodClass\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamExample", "RefExample\ParamExample.csproj", "{BC9D7C38-F680-4D9D-AAAE-EAAEF86072B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFunctionExample", "LocalFunctionExample\LocalFunctionExample.csproj", "{ED966314-0403-471E-A632-6FC35AA7DF25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BC9D7C38-F680-4D9D-AAAE-EAAEF86072B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9D7C38-F680-4D9D-AAAE-EAAEF86072B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9D7C38-F680-4D9D-AAAE-EAAEF86072B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED966314-0403-471E-A632-6FC35AA7DF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED966314-0403-471E-A632-6FC35AA7DF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED966314-0403-471E-A632-6FC35AA7DF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED966314-0403-471E-A632-6FC35AA7DF25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
