@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse", "TryParse\TryPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionMethod", "ConversionMethod\ConversionMethod.csproj", "{13B8D5DD-8777-4BD1-A967-84B1C5824057}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorClass", "ConstructorClass\ConstructorClass.csproj", "{72549B09-A353-4521-A5F2-129169135BB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{13B8D5DD-8777-4BD1-A967-84B1C5824057}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13B8D5DD-8777-4BD1-A967-84B1C5824057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13B8D5DD-8777-4BD1-A967-84B1C5824057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72549B09-A353-4521-A5F2-129169135BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72549B09-A353-4521-A5F2-129169135BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72549B09-A353-4521-A5F2-129169135BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72549B09-A353-4521-A5F2-129169135BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
