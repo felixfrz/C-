@@ -35,9 +35,13 @@
         product3.SetQuantityInStock(800);
 
         //call method
-        product1.CalculateTax(9.2);
-        product2.CalculateTax(7.4);
-        product3.CalculateTax();
+        double q = 9.2;
+        product1.CalculateTax(percentage: in q);
+        //rout
+        double p = 5.6;
+        product2.CalculateTax(in p);
+        Console.WriteLine("P is " + p);
+        product3.CalculateTax(10000, 3.4);
 
         // get values from fields
         Console.WriteLine(developerName);
