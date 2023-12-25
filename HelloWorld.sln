@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitCasting", "Explicit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsing", "Parsing\Parsing.csproj", "{BCF4503F-66DB-4EAF-AF6D-72ED523C6C6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse", "TryParse\TryParse.csproj", "{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BCF4503F-66DB-4EAF-AF6D-72ED523C6C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCF4503F-66DB-4EAF-AF6D-72ED523C6C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCF4503F-66DB-4EAF-AF6D-72ED523C6C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
