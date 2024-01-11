@@ -41,7 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceClass", "Inherit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beginners", "Beginners\Beginners.csproj", "{3B56CF5E-4752-4652-ACAB-532D681EF2B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{937273BF-7974-4B68-BA67-9A5AFF8BB698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{937273BF-7974-4B68-BA67-9A5AFF8BB698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refresher", "Refresher\Refresher.csproj", "{68A09DF2-24E4-4BD5-BD46-C39A67B47F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer", "Customer\Customer.csproj", "{93F8903C-5857-4690-9DFA-D0FAA6507589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A09DF2-24E4-4BD5-BD46-C39A67B47F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A09DF2-24E4-4BD5-BD46-C39A67B47F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A09DF2-24E4-4BD5-BD46-C39A67B47F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A09DF2-24E4-4BD5-BD46-C39A67B47F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F8903C-5857-4690-9DFA-D0FAA6507589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F8903C-5857-4690-9DFA-D0FAA6507589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F8903C-5857-4690-9DFA-D0FAA6507589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F8903C-5857-4690-9DFA-D0FAA6507589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
