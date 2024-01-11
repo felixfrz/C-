@@ -21,7 +21,12 @@ public class Program
         //initialise fields
         product1.productID = 1001;
         product1.productName = "Mobile";
-        
 
+        Product.TotalNoProducts++;
+        Product.TotalNoProducts++;
+         
+        Console.WriteLine(  Product.TotalNoProducts);
+
+        Console.ReadKey();
     }
 }
