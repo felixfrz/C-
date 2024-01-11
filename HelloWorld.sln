@@ -1,45 +1,47 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.5
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First", "HelloWorld\First.csproj", "{34BC9413-995D-4812-895C-6CA13E1A76C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First", "HelloWorld\First.csproj", "{34BC9413-995D-4812-895C-6CA13E1A76C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib1", "ClassLib1\ClassLib1.csproj", "{2A554AB8-CA78-4894-BEDB-2F119697639C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLib1", "ClassLib1\ClassLib1.csproj", "{2A554AB8-CA78-4894-BEDB-2F119697639C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodExample", "MethodExample\MethodExample.csproj", "{C42247A0-2F8C-46AD-B29B-CB808901E5AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodExample", "MethodExample\MethodExample.csproj", "{C42247A0-2F8C-46AD-B29B-CB808901E5AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodClass", "MethodClass\MethodClass.csproj", "{AB948470-B67B-4B3E-B11F-32084C6512D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodClass", "MethodClass\MethodClass.csproj", "{AB948470-B67B-4B3E-B11F-32084C6512D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamExample", "RefExample\ParamExample.csproj", "{BC9D7C38-F680-4D9D-AAAE-EAAEF86072B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamExample", "RefExample\ParamExample.csproj", "{BC9D7C38-F680-4D9D-AAAE-EAAEF86072B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFunctionExample", "LocalFunctionExample\LocalFunctionExample.csproj", "{ED966314-0403-471E-A632-6FC35AA7DF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalFunctionExample", "LocalFunctionExample\LocalFunctionExample.csproj", "{ED966314-0403-471E-A632-6FC35AA7DF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{7B33D119-464B-4A23-B821-3172088E5B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{7B33D119-464B-4A23-B821-3172088E5B4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitCasting", "ImplicitCasting\ImplicitCasting.csproj", "{92309B25-B386-4B73-AD33-03EF557AA583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitCasting", "ImplicitCasting\ImplicitCasting.csproj", "{92309B25-B386-4B73-AD33-03EF557AA583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitCasting", "ExplicitCasting\ExplicitCasting.csproj", "{4B57F212-68D1-4BDF-946C-0480103F441C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplicitCasting", "ExplicitCasting\ExplicitCasting.csproj", "{4B57F212-68D1-4BDF-946C-0480103F441C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parsing", "Parsing\Parsing.csproj", "{BCF4503F-66DB-4EAF-AF6D-72ED523C6C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parsing", "Parsing\Parsing.csproj", "{BCF4503F-66DB-4EAF-AF6D-72ED523C6C6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParse", "TryParse\TryParse.csproj", "{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryParse", "TryParse\TryParse.csproj", "{B8E97FC4-6396-4E60-AFFA-DA53A22D82B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionMethod", "ConversionMethod\ConversionMethod.csproj", "{13B8D5DD-8777-4BD1-A967-84B1C5824057}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversionMethod", "ConversionMethod\ConversionMethod.csproj", "{13B8D5DD-8777-4BD1-A967-84B1C5824057}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{1A6295A7-6574-4C99-BCF6-9E59F6653EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorClass", "ConstructorClass\ConstructorClass.csproj", "{72549B09-A353-4521-A5F2-129169135BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorClass", "ConstructorClass\ConstructorClass.csproj", "{72549B09-A353-4521-A5F2-129169135BB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticConstructor", "StaticConstructor\StaticConstructor.csproj", "{62C1D220-AFB2-409C-819D-F56CA10D27E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticConstructor", "StaticConstructor\StaticConstructor.csproj", "{62C1D220-AFB2-409C-819D-F56CA10D27E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticConstructorClass", "StaticConstructorClass\StaticConstructorClass.csproj", "{98E2D048-429B-4F08-8B8F-5C762ABF4D02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticConstructorClass", "StaticConstructorClass\StaticConstructorClass.csproj", "{98E2D048-429B-4F08-8B8F-5C762ABF4D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{6B19CE8D-BAEF-4B1D-BF01-D5B7352B42AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{6B19CE8D-BAEF-4B1D-BF01-D5B7352B42AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClass", "InheritanceClass\InheritanceClass.csproj", "{46BCA006-D759-418E-B574-028D577F04FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceClass", "InheritanceClass\InheritanceClass.csproj", "{46BCA006-D759-418E-B574-028D577F04FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginners", "Beginners\Beginners.csproj", "{3B56CF5E-4752-4652-ACAB-532D681EF2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beginners", "Beginners\Beginners.csproj", "{3B56CF5E-4752-4652-ACAB-532D681EF2B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{937273BF-7974-4B68-BA67-9A5AFF8BB698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{3B56CF5E-4752-4652-ACAB-532D681EF2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B56CF5E-4752-4652-ACAB-532D681EF2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B56CF5E-4752-4652-ACAB-532D681EF2B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937273BF-7974-4B68-BA67-9A5AFF8BB698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

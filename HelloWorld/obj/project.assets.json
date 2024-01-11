@@ -27,32 +27,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/felixfrz/.nuget/packages/": {}
+    "C:\\Users\\olado\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/felixfrz/Projects/HelloWorld/HelloWorld/First.csproj",
+      "projectUniqueName": "C:\\Users\\olado\\Desktop\\C-SHARP\\HelloWorld\\First.csproj",
       "projectName": "First",
-      "projectPath": "/Users/felixfrz/Projects/HelloWorld/HelloWorld/First.csproj",
-      "packagesPath": "/Users/felixfrz/.nuget/packages/",
-      "outputPath": "/Users/felixfrz/Projects/HelloWorld/HelloWorld/obj/",
+      "projectPath": "C:\\Users\\olado\\Desktop\\C-SHARP\\HelloWorld\\First.csproj",
+      "packagesPath": "C:\\Users\\olado\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\olado\\Desktop\\C-SHARP\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/felixfrz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\olado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/felixfrz/Projects/HelloWorld/ClassLib1/ClassLib1.csproj": {
-              "projectPath": "/Users/felixfrz/Projects/HelloWorld/ClassLib1/ClassLib1.csproj"
+            "C:\\Users\\olado\\Desktop\\C-SHARP\\ClassLib1\\ClassLib1.csproj": {
+              "projectPath": "C:\\Users\\olado\\Desktop\\C-SHARP\\ClassLib1\\ClassLib1.csproj"
             }
           }
         }
@@ -82,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
