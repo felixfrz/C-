@@ -5,6 +5,7 @@
         //create theree object for Employee
         Employee emp1 = new Employee(101, "Frz", "Manager");
         emp1.Tax = 50;
+        emp1.NativePlace = "Akure";
         Employee emp2 = new Employee(102, "Bim", "Asst. Manager");
         Employee emp3 = new Employee(103, "Scott", "Clerk");
         Employee emp4 = new Employee() { EmpName = "Ford", Job = "CEO" };
@@ -17,6 +18,7 @@
         Console.WriteLine(emp1.Job);
         Console.WriteLine(emp1.Salary);
         Console.WriteLine(emp1.CalculateNetSalary());
+        Console.WriteLine(emp1.NativePlace);
         //emp1.Salary = 29944;
         Console.WriteLine();
 
