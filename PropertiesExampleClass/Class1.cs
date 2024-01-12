@@ -107,5 +107,6 @@
         return t;
     }
 
-    public string NativePlace { get;  set; }
+    //Automatic properties
+    public string NativePlace { get; set; } = "Akure";
 }
