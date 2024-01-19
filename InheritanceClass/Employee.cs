@@ -1,5 +1,5 @@
 ﻿
-public class Employee
+public abstract class Employee
 {
     //fields
     private int _empID;
@@ -21,11 +21,7 @@ public class Employee
         get { return _location; }
     }
 
-    //method
-
-    public virtual string GetHealthInsuranceAmount()
-    {
-        return "Health Insurance amount is " + 500;
-    }
+    //abstract method
+    public abstract string GetHealthInsuranceAmount();
 }
 

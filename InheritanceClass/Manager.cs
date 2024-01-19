@@ -25,9 +25,9 @@ sealed public class Manager : Employee
         return DepartmentName + " at " + base.Location;
     }
 
+    //method overriding the abstract methods
     public override string GetHealthInsuranceAmount()
     {
-        base.GetHealthInsuranceAmount();
         return "Health Insurance amount is 1000";
     }
 
