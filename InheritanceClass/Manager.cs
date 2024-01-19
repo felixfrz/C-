@@ -1,11 +1,24 @@
-﻿using System;
-namespace InheritanceClass
+﻿
+public class Manager : Employee
 {
-	public class Manager
-	{
-		public Manager()
-		{
-		}
-	}
+    //field
+    private string _departmentName;
+
+
+    //properties
+
+    public string DepartmentName
+    {
+        set { _departmentName = value; }
+        get { return _departmentName; }
+    }
+
+    //method
+    //public long GetTotalSaleSalesOfYear()
+    //{
+    //    return 
+    //}
+
 }
+
 
