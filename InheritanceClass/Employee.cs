@@ -20,5 +20,12 @@ public class Employee
         set { _location = value; }
         get { return _location; }
     }
+
+    //method
+
+    public virtual string GetHealthInsuranceAmount()
+    {
+        return "Health Insurance amount is " + 500;
+    }
 }
 

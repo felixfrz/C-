@@ -1,7 +1,7 @@
 ﻿using System;
 namespace InheritanceClass
 {
-    public class Salesamn
+    public class Salesamn:Employee
     {
       
     }

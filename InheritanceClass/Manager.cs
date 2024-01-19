@@ -1,5 +1,5 @@
 ﻿
-public class Manager : Employee
+sealed public class Manager : Employee
 {
     //field
     private string _departmentName;
@@ -25,6 +25,18 @@ public class Manager : Employee
         return DepartmentName + " at " + base.Location;
     }
 
+    public override string GetHealthInsuranceAmount()
+    {
+        base.GetHealthInsuranceAmount();
+        return "Health Insurance amount is 1000";
+    }
+
 }
+
+
+//public class BranchManager: Manager
+//{
+
+//}
 
 
