@@ -14,10 +14,16 @@ public class Manager : Employee
     }
 
     //method
-    //public long GetTotalSaleSalesOfYear()
-    //{
-    //    return 
-    //}
+    public long GetTotalSaleSalesOfYear()
+    {
+        return 1000;
+    }
+
+    //method
+    public string GetFullDepartmentName()
+    {
+        return DepartmentName + " at " + base.Location;
+    }
 
 }
 
