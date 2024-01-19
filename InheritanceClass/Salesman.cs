@@ -1,12 +1,13 @@
 ﻿
 
 
-public class Salesamn : IEmployee
+public class Salesamn : IPerson, IEmployee
 {
     private string _region;
     private int _empID;
     private string _empName;
     private string _location;
+    private System.DateTime _dateOfBirth;
 
 
 
@@ -34,10 +35,22 @@ public class Salesamn : IEmployee
 
     }
 
+    public System.DateTime DateOfBirth
+    {
+        set { _dateOfBirth = value; }
+        get { return _dateOfBirth; }
+    }
+
     //method implementation the abstract methods
     public string GetHealthInsuranceAmount()
     {
         return "Health Insurance amount is 500";
+    }
+
+    public int GetAge()
+    {
+        int a = System.Convert.ToInt32((System.DateTime.Now - DateOfBirth).TotalDays / 365);
+        return a;
     }
 }
 

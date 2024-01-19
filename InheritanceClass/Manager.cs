@@ -1,5 +1,5 @@
 ﻿
-sealed public class Manager : IPerson, IEmployee
+sealed public class Manager :IPerson,  IEmployee
 {
     //field
     private string _departmentName;
@@ -78,11 +78,13 @@ sealed public class Manager : IPerson, IEmployee
 
 
 
-    public int GetAge()
+ public int GetAge()
     {
       int a =  System.Convert.ToInt32((System.DateTime.Now - DateOfBirth).TotalDays / 365);
         return a;
     }
+
+  
 
 }
 

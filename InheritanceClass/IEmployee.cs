@@ -1,5 +1,5 @@
 ﻿
-public interface IEmployee
+public interface IEmployee:IPerson
 {
     //auto-properties
    public string EmpName
@@ -16,6 +16,8 @@ public interface IEmployee
 
     //abstract method
    public string GetHealthInsuranceAmount();
+
+}
 
 
 
@@ -40,5 +42,5 @@ public interface IEmployee
 
 
 
-}
+
 
