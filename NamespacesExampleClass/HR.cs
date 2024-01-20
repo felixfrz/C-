@@ -1,6 +1,6 @@
 ﻿namespace NamespacesExampleClass
 {
-    public class Class1
+    public interface IEmployee
     {
 
     }
