@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic List", "Generic Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Stack", "Generic Stack\Generic Stack.csproj", "{AB640483-B3E8-4887-9498-82364DBA8799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Queue", "Generic Queue\Generic Queue.csproj", "{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{AB640483-B3E8-4887-9498-82364DBA8799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB640483-B3E8-4887-9498-82364DBA8799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB640483-B3E8-4887-9498-82364DBA8799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
