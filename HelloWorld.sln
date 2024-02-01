@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexersClass", "IndexersClass\IndexersClass.csproj", "{A2947D3B-7147-46C3-8F20-30A36D416B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespacesExample", "NamespacesExample\NamespacesExample.csproj", "{114E938E-CAA8-451C-9C99-5146BAECA9D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamespacesExample", "NamespacesExample\NamespacesExample.csproj", "{114E938E-CAA8-451C-9C99-5146BAECA9D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamespacesExampleClass", "NamespacesExampleClass\NamespacesExampleClass.csproj", "{1924A4C7-AB2D-4455-BBB4-F2AA9985D3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamespacesExampleClass", "NamespacesExampleClass\NamespacesExampleClass.csproj", "{1924A4C7-AB2D-4455-BBB4-F2AA9985D3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{3B40D744-F540-4B20-B992-F0799574F468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{1924A4C7-AB2D-4455-BBB4-F2AA9985D3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1924A4C7-AB2D-4455-BBB4-F2AA9985D3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1924A4C7-AB2D-4455-BBB4-F2AA9985D3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B40D744-F540-4B20-B992-F0799574F468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B40D744-F540-4B20-B992-F0799574F468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B40D744-F540-4B20-B992-F0799574F468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B40D744-F540-4B20-B992-F0799574F468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
