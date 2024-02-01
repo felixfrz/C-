@@ -59,9 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamespacesExample", "Namesp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamespacesExampleClass", "NamespacesExampleClass\NamespacesExampleClass.csproj", "{1924A4C7-AB2D-4455-BBB4-F2AA9985D3C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{3B40D744-F540-4B20-B992-F0799574F468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{3B40D744-F540-4B20-B992-F0799574F468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerations", "Enumerations\Enumerations.csproj", "{45E23AF4-7F51-44DA-AEF0-D922BDA51DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerations", "Enumerations\Enumerations.csproj", "{45E23AF4-7F51-44DA-AEF0-D922BDA51DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{24C5354B-6D17-4F3E-A514-1839077AFC2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{45E23AF4-7F51-44DA-AEF0-D922BDA51DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E23AF4-7F51-44DA-AEF0-D922BDA51DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E23AF4-7F51-44DA-AEF0-D922BDA51DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C5354B-6D17-4F3E-A514-1839077AFC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C5354B-6D17-4F3E-A514-1839077AFC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C5354B-6D17-4F3E-A514-1839077AFC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C5354B-6D17-4F3E-A514-1839077AFC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
