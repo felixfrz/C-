@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{DB89FA80-9A6F-4589-8543-97E1052F7B5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericType", "GenericType\GenericType.csproj", "{4AF6D27C-B862-483D-9FC8-3283551F5F88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{DB89FA80-9A6F-4589-8543-97E1052F7B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB89FA80-9A6F-4589-8543-97E1052F7B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB89FA80-9A6F-4589-8543-97E1052F7B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF6D27C-B862-483D-9FC8-3283551F5F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF6D27C-B862-483D-9FC8-3283551F5F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF6D27C-B862-483D-9FC8-3283551F5F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF6D27C-B862-483D-9FC8-3283551F5F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
