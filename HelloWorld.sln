@@ -63,23 +63,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerations", "Enumerations\Enumerations.csproj", "{45E23AF4-7F51-44DA-AEF0-D922BDA51DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{24C5354B-6D17-4F3E-A514-1839077AFC2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{24C5354B-6D17-4F3E-A514-1839077AFC2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic List", "Generic List\Generic List.csproj", "{67A78769-03D4-429B-B1E8-EDCED847C2BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic List", "Generic List\Generic List.csproj", "{67A78769-03D4-429B-B1E8-EDCED847C2BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Stack", "Generic Stack\Generic Stack.csproj", "{AB640483-B3E8-4887-9498-82364DBA8799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic Stack", "Generic Stack\Generic Stack.csproj", "{AB640483-B3E8-4887-9498-82364DBA8799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic Queue", "Generic Queue\Generic Queue.csproj", "{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic Queue", "Generic Queue\Generic Queue.csproj", "{737A3941-CD0F-420B-A3C6-4302BDFDDBF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{07C71C20-B91A-4F54-9A6F-8826D3BF62D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{07C71C20-B91A-4F54-9A6F-8826D3BF62D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{DB89FA80-9A6F-4589-8543-97E1052F7B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{DB89FA80-9A6F-4589-8543-97E1052F7B5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericType", "GenericType\GenericType.csproj", "{4AF6D27C-B862-483D-9FC8-3283551F5F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericType", "GenericType\GenericType.csproj", "{4AF6D27C-B862-483D-9FC8-3283551F5F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableType", "NullableType\NullableType.csproj", "{F2BC9344-20BE-4B1C-98AB-3D8ECF48E142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableType", "NullableType\NullableType.csproj", "{F2BC9344-20BE-4B1C-98AB-3D8ECF48E142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{6B7D5841-B7DE-40F3-97DC-E991BF051884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{6B7D5841-B7DE-40F3-97DC-E991BF051884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod2", "ExtensionMethod2\ExtensionMethod2.csproj", "{57E04CD8-5378-47FE-A9FC-841BD791F767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension2ClassLibrary2", "Extension2ClassLibrary2\Extension2ClassLibrary2.csproj", "{8613D5EB-2D61-432B-9431-319AB42097E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +247,14 @@ Global
 		{6B7D5841-B7DE-40F3-97DC-E991BF051884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B7D5841-B7DE-40F3-97DC-E991BF051884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B7D5841-B7DE-40F3-97DC-E991BF051884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E04CD8-5378-47FE-A9FC-841BD791F767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E04CD8-5378-47FE-A9FC-841BD791F767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E04CD8-5378-47FE-A9FC-841BD791F767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E04CD8-5378-47FE-A9FC-841BD791F767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8613D5EB-2D61-432B-9431-319AB42097E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8613D5EB-2D61-432B-9431-319AB42097E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8613D5EB-2D61-432B-9431-319AB42097E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8613D5EB-2D61-432B-9431-319AB42097E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
