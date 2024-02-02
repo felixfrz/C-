@@ -81,9 +81,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableType", "NullableTyp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{6B7D5841-B7DE-40F3-97DC-E991BF051884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod2", "ExtensionMethod2\ExtensionMethod2.csproj", "{57E04CD8-5378-47FE-A9FC-841BD791F767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod2", "ExtensionMethod2\ExtensionMethod2.csproj", "{57E04CD8-5378-47FE-A9FC-841BD791F767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension2ClassLibrary2", "Extension2ClassLibrary2\Extension2ClassLibrary2.csproj", "{8613D5EB-2D61-432B-9431-319AB42097E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension2ClassLibrary2", "Extension2ClassLibrary2\Extension2ClassLibrary2.csproj", "{8613D5EB-2D61-432B-9431-319AB42097E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToOneExample", "OneToOneExample\OneToOneExample.csproj", "{2C3B8FA1-AB56-4524-8402-3C130904109D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToOneClass", "OneToOneClass\OneToOneClass.csproj", "{4CED3E84-00C7-4777-9057-0C6A7F689A84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +259,14 @@ Global
 		{8613D5EB-2D61-432B-9431-319AB42097E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8613D5EB-2D61-432B-9431-319AB42097E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8613D5EB-2D61-432B-9431-319AB42097E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3B8FA1-AB56-4524-8402-3C130904109D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3B8FA1-AB56-4524-8402-3C130904109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3B8FA1-AB56-4524-8402-3C130904109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3B8FA1-AB56-4524-8402-3C130904109D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CED3E84-00C7-4777-9057-0C6A7F689A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CED3E84-00C7-4777-9057-0C6A7F689A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CED3E84-00C7-4777-9057-0C6A7F689A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CED3E84-00C7-4777-9057-0C6A7F689A84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
