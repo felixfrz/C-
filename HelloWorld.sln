@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQFirstEXample", "LINQFir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQLastExample", "LINQLastExample\LINQLastExample.csproj", "{BABA17F8-CC44-46DB-BC80-4C16D240495D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQElementAtElementAtOrDefault", "LINQElementAtElementAtOrDefault\LINQElementAtElementAtOrDefault.csproj", "{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +305,10 @@ Global
 		{BABA17F8-CC44-46DB-BC80-4C16D240495D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BABA17F8-CC44-46DB-BC80-4C16D240495D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BABA17F8-CC44-46DB-BC80-4C16D240495D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
