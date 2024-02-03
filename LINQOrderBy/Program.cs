@@ -23,8 +23,14 @@ public class Program
             new Employee() { EmpID = 105, EmpName = "Alexa", Job = "Manager", Salary = 6232 },
         ];
 
-        IEnumerable<Employee> result = employees.OrderBy((employee) => employee.EmpName);
-        foreach(Employee item in result)
+        // IEnumerable<Employee> sortedEmployees = employees.OrderBy((employee) => employee.EmpName);
+        //IEnumerable<Employee> sortedEmployees = employees.OrderByDescending((employee) => employee.EmpName);
+        // IEnumerable<Employee> sortedEmployees = employees.OrderBy((employee) => employee.Job)
+        //     .ThenBy((employee)=>employee.EmpName);
+
+       var sortedEmployees = employees.OrderByDescending((employee) => employee.Job)
+           .ThenByDescending((employee) => employee.EmpName);
+        foreach (Employee item in sortedEmployees)
         {
             Console.WriteLine($"{item.EmpID}, {item.EmpName}, {item.Job}, {item.Salary}");
         }
