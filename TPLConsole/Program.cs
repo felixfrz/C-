@@ -16,6 +16,8 @@
                 for (int i = 1; i <= 100; i++)
                 {
                     Console.WriteLine($"Thread Id: {Thread.CurrentThread.ManagedThreadId}; Print2 Method: {i}");
+                if ( i == 50 )
+                    Thread.Sleep( 10000 );
                 }
             }
             static void Print3()
