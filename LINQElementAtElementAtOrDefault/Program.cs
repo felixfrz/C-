@@ -4,6 +4,8 @@
     public string EmpName { get; set; }
     public string Job { get; set; }
     public double Salary { get; set; }
+
+   
 }
 
 
@@ -30,7 +32,7 @@ public class Program
 
 
         //ElementAtOrDefault
-        Employee? result2 = employees.Where(employee => employee.Job == "Manager").ElementAtOrDefault(1);
+        Employee ? result2 = employees.Where(employee => employee.Job == "Manager").ElementAtOrDefault(1);
 
         if(result2 == null)
         {
