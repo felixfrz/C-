@@ -85,29 +85,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethod2", "Extensi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extension2ClassLibrary2", "Extension2ClassLibrary2\Extension2ClassLibrary2.csproj", "{8613D5EB-2D61-432B-9431-319AB42097E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToOneExample", "OneToOneExample\OneToOneExample.csproj", "{2C3B8FA1-AB56-4524-8402-3C130904109D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneToOneExample", "OneToOneExample\OneToOneExample.csproj", "{2C3B8FA1-AB56-4524-8402-3C130904109D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToOneClass", "OneToOneClass\OneToOneClass.csproj", "{4CED3E84-00C7-4777-9057-0C6A7F689A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneToOneClass", "OneToOneClass\OneToOneClass.csproj", "{4CED3E84-00C7-4777-9057-0C6A7F689A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToManyExample", "OneToManyExample\OneToManyExample.csproj", "{E635D336-4172-46BA-99AE-7C2EC33BB84B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneToManyExample", "OneToManyExample\OneToManyExample.csproj", "{E635D336-4172-46BA-99AE-7C2EC33BB84B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneToManyExampleClass", "OneToManyExampleClass\OneToManyExampleClass.csproj", "{7B3D5533-F696-4893-8AD0-8D4592372731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneToManyExampleClass", "OneToManyExampleClass\OneToManyExampleClass.csproj", "{7B3D5533-F696-4893-8AD0-8D4592372731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExample", "LINQExample\LINQExample.csproj", "{9895FE87-3819-4C41-83E7-DDD8F5841B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQExample", "LINQExample\LINQExample.csproj", "{9895FE87-3819-4C41-83E7-DDD8F5841B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQOrderBy", "LINQOrderBy\LINQOrderBy.csproj", "{36782911-C9E7-49C7-9312-4C3FF08AD77A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQOrderBy", "LINQOrderBy\LINQOrderBy.csproj", "{36782911-C9E7-49C7-9312-4C3FF08AD77A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQFirstEXample", "LINQFirstEXample\LINQFirstEXample.csproj", "{44409E69-1208-4569-8F43-2C055784A0B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQFirstEXample", "LINQFirstEXample\LINQFirstEXample.csproj", "{44409E69-1208-4569-8F43-2C055784A0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQLastExample", "LINQLastExample\LINQLastExample.csproj", "{BABA17F8-CC44-46DB-BC80-4C16D240495D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQLastExample", "LINQLastExample\LINQLastExample.csproj", "{BABA17F8-CC44-46DB-BC80-4C16D240495D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQElementAtElementAtOrDefault", "LINQElementAtElementAtOrDefault\LINQElementAtElementAtOrDefault.csproj", "{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQElementAtElementAtOrDefault", "LINQElementAtElementAtOrDefault\LINQElementAtElementAtOrDefault.csproj", "{BFDA0ED6-D968-4A1D-A2B6-4F45A40FB17F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINGSingleExample", "LINGSingleExample\LINGSingleExample.csproj", "{9B45B575-F4F6-474F-8F24-AD34BAFE3A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINGSingleExample", "LINGSingleExample\LINGSingleExample.csproj", "{9B45B575-F4F6-474F-8F24-AD34BAFE3A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQSelect", "LINQSelect\LINQSelect.csproj", "{B0D8F48C-D225-4826-B4BE-D80296BD396E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQSelect", "LINQSelect\LINQSelect.csproj", "{B0D8F48C-D225-4826-B4BE-D80296BD396E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQMinMax", "LINQMinMax\LINQMinMax.csproj", "{42F8EE44-5994-4652-A253-6044B89AD4A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQMinMax", "LINQMinMax\LINQMinMax.csproj", "{42F8EE44-5994-4652-A253-6044B89AD4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "te", "te\te.csproj", "{AD4ACB58-7134-4AB4-9766-6A60730E3812}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{42F8EE44-5994-4652-A253-6044B89AD4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42F8EE44-5994-4652-A253-6044B89AD4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42F8EE44-5994-4652-A253-6044B89AD4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4ACB58-7134-4AB4-9766-6A60730E3812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4ACB58-7134-4AB4-9766-6A60730E3812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4ACB58-7134-4AB4-9766-6A60730E3812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4ACB58-7134-4AB4-9766-6A60730E3812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
