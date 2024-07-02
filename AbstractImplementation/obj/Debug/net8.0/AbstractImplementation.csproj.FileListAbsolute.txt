@@ -1,0 +1,14 @@
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\bin\Debug\net8.0\AbstractImplementation.exe
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\bin\Debug\net8.0\AbstractImplementation.deps.json
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\bin\Debug\net8.0\AbstractImplementation.runtimeconfig.json
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\bin\Debug\net8.0\AbstractImplementation.dll
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\bin\Debug\net8.0\AbstractImplementation.pdb
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.AssemblyInfoInputs.cache
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.AssemblyInfo.cs
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.csproj.CoreCompileInputs.cache
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.dll
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\refint\AbstractImplementation.dll
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.pdb
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\AbstractImplementation.genruntimeconfig.cache
+C:\Users\olado\Desktop\ASP.NET\AbstractImplementation\obj\Debug\net8.0\ref\AbstractImplementation.dll
