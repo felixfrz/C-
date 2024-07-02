@@ -22,7 +22,7 @@
             {
                 for (int i = 1; i <= 100; i++)
                 {
-                    Console.WriteLine($"Thread Id: {Thread.CurrentThread.ManagedThreadId}; Print3 Method: {i}");
+                    Console.WriteLine($"Thread Id: {Thread.CurrentThread.ManagedThreadId}; Print3 Method : {i}");
                 }
 
             
