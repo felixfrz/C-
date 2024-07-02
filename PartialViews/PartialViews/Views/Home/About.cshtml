@@ -1,0 +1,27 @@
+﻿
+
+<h1>About</h1>
+
+<h2>About company here</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae sem augue. Integer eleifend a erat id fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisi turpis. Curabitur pellentesque sodales mauris eu dictum. Sed id orci ac turpis hendrerit dapibus a eget est. Integer nec pharetra purus. Aenean scelerisque metus eget auctor consectetur. Ut maximus laoreet purus, in iaculis neque vulputate a. Donec luctus felis non dolor fringilla eleifend. Vestibulum eget tempor lacus. Suspendisse ac convallis arcu. Praesent nec tincidunt tortor, sed suscipit ante. Quisque porttitor turpis eu pulvinar iaculis. Proin pulvinar gravida nunc at dictum.</p>
+
+
+
+@*  <partial name="_ListPartialView" />
+
+@await Html.PartialAsync("_ListPartialView") *@
+
+
+@{
+    ListModel listModel = new ListModel();
+    listModel.ListTitle = "Programming Languages";
+    listModel.ListItems = new List<string>()
+    {
+        "C#",
+        "Java",
+        "Python",
+        "JavaScript"
+    };
+    await Html.RenderPartialAsync("_ListPartialView", listModel);
+} 

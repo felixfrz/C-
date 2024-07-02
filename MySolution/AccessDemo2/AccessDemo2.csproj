@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>AccessDemo2.TestVB</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AccessDemo4\AccessDemo4.vbproj" />
+    <ProjectReference Include="..\AcessDemo1\AcessDemo1.csproj" />
+  </ItemGroup>
+
+</Project>

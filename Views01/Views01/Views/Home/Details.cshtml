@@ -1,0 +1,42 @@
+﻿@* @model Views01.Models.Person *@
+@model Person
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Person Details</title>
+  <link rel="stylesheet" href="~/StyleSheet.css">
+</head>
+
+<body>
+
+    <div class="page-content">
+          <h1>Person Details</h1>
+          <div class="box w-50">
+              <h3>@Model.Name</h3>
+          <table class="table">
+              <tbody>
+                  <tr>
+                      <td>Gender</td>
+                      <td>@Model.PersonGender</td>
+                  </tr>
+                  <tr>
+                      <td>Date of Birth</td>
+                      <td>@Model.DateOfBirth?.ToString("dd/MM/yyyy")</td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+           <a href="/home">Back to Person List</a>
+    </div>
+
+ 
+</body>
+
+</html>

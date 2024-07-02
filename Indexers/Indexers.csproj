@@ -5,10 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Indexers.EmployeeTest</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\IndexersClass\IndexersClass.csproj" />
-  </ItemGroup>
 
 </Project>
