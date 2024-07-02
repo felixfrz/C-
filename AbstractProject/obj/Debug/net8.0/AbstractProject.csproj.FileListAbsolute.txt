@@ -1,0 +1,14 @@
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.AssemblyInfoInputs.cache
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.AssemblyInfo.cs
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.csproj.CoreCompileInputs.cache
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\bin\Debug\net8.0\AbstractProject.exe
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\bin\Debug\net8.0\AbstractProject.deps.json
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\bin\Debug\net8.0\AbstractProject.runtimeconfig.json
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\bin\Debug\net8.0\AbstractProject.dll
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\bin\Debug\net8.0\AbstractProject.pdb
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.dll
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\refint\AbstractProject.dll
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.pdb
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\AbstractProject.genruntimeconfig.cache
+C:\Users\olado\Desktop\ASP.NET\AbstractProject\obj\Debug\net8.0\ref\AbstractProject.dll

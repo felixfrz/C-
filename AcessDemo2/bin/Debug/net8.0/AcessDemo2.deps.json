@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AcessDemo2/1.0.0": {
+        "dependencies": {
+          "Testing": "1.0.0"
+        },
+        "runtime": {
+          "AcessDemo2.dll": {}
+        }
+      },
+      "Testing/1.0.0": {
+        "runtime": {
+          "Testing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcessDemo2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Testing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
