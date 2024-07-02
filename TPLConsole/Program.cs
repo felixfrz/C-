@@ -26,7 +26,9 @@
                 {
                     Console.WriteLine($"Thread Id: {Thread.CurrentThread.ManagedThreadId}; Print3 Method: {i}");
                 }
-            }
+
+            
+        }
             static void Main(string[] args)
             {
                 Print1(); Print2(); Print3();
