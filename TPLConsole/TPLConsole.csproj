@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>TPLConsole.Class3</StartupObject>
+    <StartupObject>TPLConsole.Class5</StartupObject>
   </PropertyGroup>
 
 </Project>
