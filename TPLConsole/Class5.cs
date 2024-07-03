@@ -24,7 +24,7 @@ namespace TPLConsole
         
         static void Main()
         {
-            Task t1 = new Task(() => GetLength(5000000));
+            Task t1 = new Task(() => GetLength(5000));
             Task t2 = new Task(() => ToUpper("hello frz"));
 
             t1.Start(); t2.Start();
