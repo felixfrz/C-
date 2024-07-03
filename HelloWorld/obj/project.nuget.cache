@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tx4oQdT24Wg=",
+  "dgSpecHash": "ekjEcVkMyVg=",
   "success": true,
-  "projectFilePath": "D:\\OneDrive\\CSharp\\GitHub\\HelloWorld\\First.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\OneDrive\\CSharp\\Demo\\HelloWorld\\First.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
