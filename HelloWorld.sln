@@ -109,7 +109,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQSelect", "LINQSelect\LI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQMinMax", "LINQMinMax\LINQMinMax.csproj", "{42F8EE44-5994-4652-A253-6044B89AD4A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLConsole", "TPLConsole\TPLConsole.csproj", "{C35245E6-7F0B-45F2-8909-B3E7095199DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPLConsole", "TPLConsole\TPLConsole.csproj", "{C35245E6-7F0B-45F2-8909-B3E7095199DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aysnchronous Programming", "Aysnchronous Programming\Aysnchronous Programming.csproj", "{E49DC4C6-DB85-4700-8CBB-2332CA87ED88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +335,10 @@ Global
 		{C35245E6-7F0B-45F2-8909-B3E7095199DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35245E6-7F0B-45F2-8909-B3E7095199DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35245E6-7F0B-45F2-8909-B3E7095199DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49DC4C6-DB85-4700-8CBB-2332CA87ED88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49DC4C6-DB85-4700-8CBB-2332CA87ED88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49DC4C6-DB85-4700-8CBB-2332CA87ED88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49DC4C6-DB85-4700-8CBB-2332CA87ED88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
